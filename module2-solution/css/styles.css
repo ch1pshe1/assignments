@@ -1,7 +1,6 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  /*font-family: "Comic Sans MS", cursive, sans-serif;*/
   font-family: "Trebuchet MS", Helvetica, sans-serif
 
 }
@@ -15,9 +14,7 @@ h1 {
 
 p {
   margin: 75px 10px 10px 10px;
-  text-align: justify;
-  min-height: 70%;
-  text-overflow: auto;
+  text-align: left;
   color: black;
 }
 
@@ -39,6 +36,7 @@ p {
   border: 1px solid black;
   text-align: center;
   font-size: 125%;
+  color: white;
 }
 
 .row {
@@ -52,27 +50,25 @@ p {
 #menuitem2 {
   background-color: greenyellow;
 }
+
 #menuitem3 {
   background-color: aquamarine;
 }
 
 #menutitle1 {
   background-image: url(roasted-chicken-small.jpg);
-  color: white;
 }
 
 #menutitle2 {
   background-image: url(steak-cooked-small.jpg);
-  color: white;
 }
 
 #menutitle3 {
   background-image: url(cooked-fish-small.jpg);
-  color: white;
 }
 
 /********** Desktop **********/
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .col-large {
     float: left;
     width: 33.33%;
@@ -81,7 +77,7 @@ p {
 
 
 /********** Tablet **********/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .col-medium {
     float: left;
     width: 50%;
@@ -94,7 +90,7 @@ p {
 }
 
 /********** Mobile **********/
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .col-small {
     float: left;
     width: 100%;
