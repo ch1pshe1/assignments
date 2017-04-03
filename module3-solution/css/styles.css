@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f5d6f4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 100px;
+  margin: 15px;
+}
+
+.navbar-brand h1 { /* Brand Name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #E0FFFF;
+  color: #4B0082;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/* END HEADER */
+
+/** BODY **/
+#page-heading {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.menu-tile {
+  border: 1px solid black;
+  height: 700px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: auto;
+  position: relative;
+}
+
+.menu-title {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  margin-top: 0;
+ }
+
+.menu-tile p:nth-child(2) {
+  margin: 10px;
+}
+
+.menu-tile a {
+  color: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-decoration: underline;
+}
+
+#menu-chicken {
+  background-color: #FFA07A;
+  color: #800000;
+}
+
+#menu-beef {
+  background-color: #b3ff66;
+  color: #191970;
+}
+
+#menu-sushi {
+  background-color: #7FFFD4;
+  color: #00008B;
+}
+
+#end-section {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+/* END BODY */
